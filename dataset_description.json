@@ -1,0 +1,36 @@
+{
+    "Name": "Esr1+ hypothalamic-habenula neurons shape aversive states.",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Prefrontal cortex (PFC) high-density extracellular recordings (Neuropixels) in head-fixed mice during an aversive-conditioning task. Neuronal responses to internally generated (i.e. pathway-specific optogenetic activation, see the main article for details) and externally derived (i.e. air puffs) aversive signals have been recorded.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Calvigioni, Daniela",
+        "Fuzik, Janos",
+        "Le Merre, Pierre",
+        "Slashcheva, Marina",
+        "Jung, Felix",
+        "Ortiz, Cantin",
+        "Lentini, Antonio",
+        "Csillag, Veronika",
+        "Graziano, Marta",
+        "Nikolakopoulou, Ifigeneia",
+        "Weglage, Moritz",
+        "Lazaridis, Iakovos",
+        "Kim, Hoseok",
+        "Lenzi, Irene",
+        "Park, Hyunsoo",
+        "Reinius, Bj\u00f6rn",
+        "Carl\u00e9n, Marie",
+        "Meletis, Konstantinos"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
