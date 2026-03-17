@@ -6,66 +6,24 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
- - rules.dataset_metadata.dataset_description
+
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
 	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
 		session_id
-		/sub-147465/sub-147465_sessions.tsv - 'ses-147465_20191113-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-152419/sub-152419_sessions.tsv - 'ses-152419_20191106-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-216300/sub-216300_sessions.tsv - 'ses-216300_20200518-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-147463/sub-147463_sessions.tsv - 'ses-147463_20191113-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-273853/sub-273853_sessions.tsv - 'ses-273853_20200925-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-258419/sub-258419_sessions.tsv - 'ses-258419_20200921-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-258412/sub-258412_sessions.tsv - 'ses-258412_20200915-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-258414/sub-258414_sessions.tsv - 'ses-258414_20200915-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-258416/sub-258416_sessions.tsv - 'ses-258416_20200921-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-152414/sub-152414_sessions.tsv - 'ses-152414_20191023-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-273855/sub-273855_sessions.tsv - 'ses-273855_20200928-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-273858/sub-273858_sessions.tsv - 'ses-273858_20200925-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-156131/sub-156131_sessions.tsv - 'ses-156131_20191112-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-268951/sub-268951_sessions.tsv - 'ses-268951_20200922-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-128515/sub-128515_sessions.tsv - 'ses-128515_20191216-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-225757/sub-225757_sessions.tsv - 'ses-225757_20200519-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-225758/sub-225758_sessions.tsv - 'ses-225758_20200519-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-152417/sub-152417_sessions.tsv - 'ses-152417_20191023-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-259112/sub-259112_sessions.tsv - 'ses-259112_20200914-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-156130/sub-156130_sessions.tsv - 'ses-156130_20191112-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-128514/sub-128514_sessions.tsv - 'ses-128514_20191215-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-268947/sub-268947_sessions.tsv - 'ses-268947_20200922-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-128516/sub-128516_sessions.tsv - 'ses-128516_20191215-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-225759/sub-225759_sessions.tsv - 'ses-225759_20200521-probe0' - rules.tabular_data.modality_agnostic.Sessions
-		/sub-216301/sub-216301_sessions.tsv - 'ses-216301_20200521-probe0' - rules.tabular_data.modality_agnostic.Sessions
+		/sub-147465/sub-147465_sessions.tsv - 'ses-147465_20191113-probe0'
+		/sub-152419/sub-152419_sessions.tsv - 'ses-152419_20191106-probe0'
+
+		23 more files with the same issue
 
 	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
 
 	[ERROR] NOT_INCLUDED Files with such naming scheme are not part of BIDS specification. This error is most commonly caused by typos in file names that make them not BIDS compatible. Please consult the specification and make sure your files are named correctly. If this is not a file naming issue (for example when including files not yet covered by the BIDS specification) you should include a ".bidsignore" file in your dataset (see https://github.com/bids-standard/bids-validator#bidsignore for details). Please note that derived (processed) data should be placed in /derivatives folder and source data (such as DICOMS or behavioural logs in proprietary formats) should be placed in the /sourcedata folder.
 		/sub-147465/ses-147465_20191113-probe0/
 		/sub-152419/ses-152419_20191106-probe0/
-		/sub-216300/ses-216300_20200518-probe0/
-		/sub-147463/ses-147463_20191113-probe0/
-		/sub-273853/ses-273853_20200925-probe0/
-		/sub-258419/ses-258419_20200921-probe0/
-		/sub-258412/ses-258412_20200915-probe0/
-		/sub-258414/ses-258414_20200915-probe0/
-		/sub-258416/ses-258416_20200921-probe0/
-		/sub-152414/ses-152414_20191023-probe0/
-		/sub-273855/ses-273855_20200928-probe0/
-		/sub-273858/ses-273858_20200925-probe0/
-		/sub-156131/ses-156131_20191112-probe0/
-		/sub-268951/ses-268951_20200922-probe0/
-		/sub-128515/ses-128515_20191216-probe0/
-		/sub-225757/ses-225757_20200519-probe0/
-		/sub-225758/ses-225758_20200519-probe0/
-		/sub-152417/ses-152417_20191023-probe0/
-		/sub-259112/ses-259112_20200914-probe0/
-		/sub-156130/ses-156130_20191112-probe0/
-		/sub-128514/ses-128514_20191215-probe0/
-		/sub-268947/ses-268947_20200922-probe0/
-		/sub-128516/ses-128516_20191215-probe0/
-		/sub-225759/ses-225759_20200521-probe0/
-		/sub-216301/ses-216301_20200521-probe0/
+
+		23 more files with the same issue
 
 	Please visit https://neurostars.org/search?q=NOT_INCLUDED for existing conversations about this issue.
 
